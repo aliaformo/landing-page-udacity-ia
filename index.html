@@ -1,0 +1,237 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/c75bfbb3ec.js" crossorigin="anonymous"></script>
+    <title>Artificial Intelligence Tools</title>
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+    <!-- Load Styles -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HTML Follows BEM naming conventions
+  IDs are only used for sections to connect menu anchors to sections -->
+    <header class="page__header">
+
+        <nav id="navBarMenu" class="navbar__menu">
+            <!-- Navigation starts as empty UL that will be populated with JS -->
+            <ul id="navbar__list"></ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="section0" data-nav="Home">
+            <header class="main__hero">
+                <div class="hero-image">
+                    <div class="hero-text">
+                        <h1>Artificial Intelligence Tools</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias ratione doloremque
+                            tempore
+                            impedit nulla. Sequi, tempora aspernatur maiores quasi pariatur deserunt. Dignissimos
+                            voluptates
+                            distinctio consequatur accusamus ad minus soluta.</p>
+
+                        <blockquote
+                            cite="https://www.forbes.com/sites/robtoews/2020/03/28/12-thought-provoking-quotes-about-artificial-intelligence/?sh=7fbae8777d26">
+                            <q>
+                                Artificial intelligence is one of the most profound things we're working on as humanity.
+                                It is more
+                                profound than fire or electricity.
+                            </q>
+                            <cite>—Sundar Pichai, 2020</cite>
+                        </blockquote>
+
+                    </div>
+
+                </div>
+            </header>
+        </section>
+
+
+        <section id="section1" data-nav="ChatGPT" class="your-active-class">
+
+            <div class="landing__container">
+                <div class="card-text">
+                    <article class="title-img">
+                        <img src="images/ChatGPT_logo.svg.png" alt="ChatGPT logo" />
+                        <h2>ChatGPT</h2>
+                    </article>
+
+                    <p>ChatGPT (Chat Generative Pre-Trained Transformer) is a large language model-based chatbot
+                        developed by
+                        OpenAI, notable for enabling users to refine and steer a conversation towards a desired length,
+                        format,
+                        style, level of detail, and language used. Successive prompts and replies, are taken into
+                        account at each
+                        stage of the conversation as a context. Developed by OpenAI and released in 2022. <span>Learn
+                            more <a href="https://en.wikipedia.org/wiki/ChatGPT">here</a></span></p>
+                    <h3>Main Features</h3>
+                    <ul>
+                        <li>It is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt
+                            and provide
+                            a detailed response.</li>
+                        <li>It is fine-tuned from a model in the GPT-3.5 series, which finished training in early 2022.
+                        </li>
+                        <li>ChatGPT and GPT-3.5 were trained on an Azure AI super computing infrastructure.</li>
+                    </ul>
+
+                    <h3>Limitations</h3>
+                    <ul>
+                        <li>Sometimes it writes plausible-sounding but incorrect or nonsensical answers.</li>
+                        <li>It is sensitive to tweaks to the input phrasing or attempting the same prompt multiple
+                            times.</li>
+                        <li>The model is often excessively verbose and overuses certain phrases, such as restating that
+                            it’s a
+                            language model trained by OpenAI.</li>
+                    </ul>
+
+                    <p>Continue reading <a href="https://openai.com/blog/chatgpt"> here.</a></p>
+                </div>
+                <div>
+                    <img class="card-img" src="images/chatgptopenai.png" alt="openaipic" />
+                </div>
+            </div>
+        </section>
+        <section id="section2" data-nav="Bing">
+            <div class="landing__container">
+
+
+                <div class="card-text">
+                    <article class="title-img">
+                        <h2>Bing AI</h2> <img src="images/Bing_Fluent_Logo.svg.png" alt="bing logo" />
+                    </article>
+                    <p>Bing Chat, also known as "the new Bing", is an artificial intelligence (AI) chatbot developed by
+                        Microsoft
+                        and released in 2023. It is powered by the Microsoft Prometheus model.</p>
+                    <h3>Main features</h3>
+                    <ul>
+                        <li>It has been built on top of OpenAI's GPT-4 foundational large language model (LLM), and has
+                            been
+                            fine-tuned using both supervised and reinforcement learning techniques.</li>
+                        <li>It can serve as a chat tool, provide the user with information and insights on the website
+                            page open in
+                            the browser, and use its Image Creator to design images based on text.</li>
+                        <li>Bing Chat can also cite its sources, unlike many other chatbots.</li>
+                    </ul>
+
+                    <h3>Limitations</h3>
+                    <ul>
+                        <li>It remains available only on Microsoft's Edge browser or Bing app.</li>
+                        <li>It produces several hallucinations.</li>
+                        <li>Microsoft had to restrict the number of chats and session per day.</li>
+                    </ul>
+
+                    <p>Continue reading <a href="https://en.wikipedia.org/wiki/Microsoft_Bing">here</a></p>
+                </div>
+
+                <div>
+                    <img class="card-img" src="images/bingchatfeatures.jpg" alt="bing chat features" />
+                </div>
+
+            </div>
+        </section>
+        <section id="section3" data-nav="Bard">
+            <div class="landing__container">
+                <div class="card-text">
+                    <article class="title-img">
+                        <img src="images/bard.gif" />
+                        <h2>Bard</h2>
+                    </article>
+                    <p>Bard is a conversational generative artificial intelligence chatbot developed by Google, based
+                        initially on
+                        the LaMDA family of large language models (LLMs) and later the PaLM LLM. It was developed as a
+                        direct
+                        response to the rise of OpenAI's ChatGPT, and was released in a limited capacity in 2023 to
+                        lukewarm
+                        responses. <span>Learn more <a
+                                href="https://en.wikipedia.org/wiki/Bard_(chatbot)">here</a></span></p>
+
+                    <h3>Main features</h3>
+                    <ul>
+                        <li>Bard is designed as an interface to an LLM that enables users to collaborate with generative
+                            AI.</li>
+                        <li> It can generate a variety of responses, even from the same or similar prompts and
+                            questions. </li>
+                        <li>It has a “Google it” button to make it easy for users to check its responses or explore
+                            sources on the
+                            web. </li>
+                    </ul>
+
+                    <h3>Limitations</h3>
+                    <ul>
+                        <li>Bard is still an experiment</li>
+                        <li>It will not always get it right</li>
+                        <li>It may give inaccurate or inappropriate responses.</li>
+                    </ul>
+
+                    <p>Continue reading <a href="https://ai.google/static/documents/google-about-bard.pdf">here</a></p>
+                </div>
+
+                <div class="card-img">
+                    <img src="images/bardsite.jpg" alt="bard site img" />
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="section4" data-nav="Claude2">
+
+            <div class="landing__container">
+
+                <div class="card-text">
+                    <article class="title-img">
+                        <h2>Claude 2</h2><img src="images/claude2logo.png" alt="claude 2 logo" />
+                    </article>
+                    <p>Claude 2 is a powerful model, which excels at a wide range of tasks from sophisticated dialogue
+                        and
+                        creative content generation to detailed instruction. It is good for complex reasoning,
+                        thoughtful dialogue,
+                        coding, and detailed content creation among others. Developed by Anthropic and launched in 2023
+                    </p>
+
+                    <h3>Main features</h3>
+                    <ul>
+                        <li>It Process mountains of text</li>
+                        <li>It has natural conversations</li>
+                        <li>It can handle a variety of basic instructions and logical scenarios</li>
+                    </ul>
+
+                    <h3>Limitations</h3>
+                    <ul>
+                        <li>It may occasionally generate incorrect or misleading information. </li>
+                        <li>It may produce offensive or biased content.</li>
+                        <li>It doesn't access the internet, so sometimes the responses could be not so updated or
+                            integrate all the
+                            last-minute information</li>
+                    </ul>
+                    <p>Continue reading <a href="https://www.anthropic.com/product">here</a></p>
+                </div>
+
+                <div class="card-img">
+                    <img src="images/claude2.jpg" alt="claude rep" />
+                </div>
+
+            </div>
+        </section>
+
+        <button id="btn-to-top" onclick="topFunction()"><i class="fa-solid fa-chevron-up"
+                id="arrow-to-top"></i></button>
+
+    </main>
+    <footer class="page__footer">
+        <p>This is a project for &copy Udacity | <span id="date"></span> </p>
+        <p> You can learn about attributions, information and images' source, and project's code, description and
+            documentation <a href="">here</a></p>
+    </footer>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
