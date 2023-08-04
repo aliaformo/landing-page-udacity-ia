@@ -34,16 +34,18 @@ However, considering the vast number of AI tools available currently, this page 
 - [X] Desktop Version
 
 ![desktop home view](images/home-view.png)
+
 ![desktop bing view](images/bing-view.png)
 
 - [x] Mobile and tablet version
 
 ![mobile home view](images/mobile-home.png)
+
 ![mobile bard view](images/mobile-bard.png)
 
 ### Landing page deployment
 
-This page was deployed on GitHub pages, you can see it on [this link 🔗]()
+This page was deployed on GitHub pages, you can see it on [this link 🔗](https://aliaformo.github.io/landing-page-udacity-ia/)
 
 ### 📚 Bibliography and Resources
 
@@ -77,6 +79,10 @@ This page was deployed on GitHub pages, you can see it on [this link 🔗]()
 
    5.3 Weekly Sessions with Session leads.
 
+   5.4 [W3C](https://www.w3schools.com/)
+
+   5.5 [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
 6. Images
 
    5.1 [Pexels](https://www.pexels.com/photo/robot-pointing-on-a-wall-8386440/)
@@ -94,6 +100,6 @@ This page was deployed on GitHub pages, you can see it on [this link 🔗]()
 - [Copyright © 2012 - 2020, Udacity, Inc.](LICENSE.txt)
 - [MIT License](LICENSE)
 
-## ⭐ Thanks One Ten and Udacity Team and Session Leads 🏅
+## ⭐ Thanks One Ten-Udacity Team and Session Leads 🏅
 
 [⬆️](#udacity-nanodegree)
