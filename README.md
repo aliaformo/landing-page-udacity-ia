@@ -16,7 +16,7 @@ My primary task was to convert this static project into an interactive one by ma
 
 This landing page is about the various AI tools that we can use to enhance our work or studies. I chose this topic because AI tools are highly beneficial for delivering better results and improving efficiency and efficacy nowadays. Thus, I decided to undertake this Capstone Project to become more familiar with AI tools by developing a landing page with examples and information on some of them.
 
-However, considering the vast number of AI tools available currently, this page specifically focuses on AI chatbots and the ones that offer at least some features for free.
+However, considering the vast number of AI tools available currently, this page specifically focuses on AI chatbots and those offering at least some free features.
 
 ### 🛠 Tools
 
@@ -77,7 +77,7 @@ This page was deployed on GitHub pages, you can see it on [this link 🔗](https
 
    5.2 One Ten Slack channel interactions (FEND).
 
-   5.3 Weekly Sessions with Session leads.
+   5.3 Weekly Sessions with Session Leads.
 
    5.4 [W3C](https://www.w3schools.com/)
 
@@ -100,6 +100,6 @@ This page was deployed on GitHub pages, you can see it on [this link 🔗](https
 - [Copyright © 2012 - 2020, Udacity, Inc.](LICENSE.txt)
 - [MIT License](LICENSE)
 
-## ⭐ Thanks One Ten-Udacity Team and Session Leads 🏅
+## ⭐ Thanks OneTen-Udacity Team and Session Leads 🏅
 
 [⬆️](#udacity-nanodegree)
